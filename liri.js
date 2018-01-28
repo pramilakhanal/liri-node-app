@@ -75,7 +75,7 @@ var getMeMovie = function(movieName) {
   			console.log('Title: ' + jsonData.Title);
   			console.log('Year: ' + jsonData.Year);
   			console.log('IMDB Rating: ' + jsonData.imdbRating);
-  			console.log('Rotten tomatoes rating: ' + jsonData.tomatoRating);
+  			console.log('Rotten tomatoes rating: ' + jsonData.Ratings[1].Value);
   			console.log('Country: ' + jsonData.Country);
   			console.log('Language: ' + jsonData.Language);
   			console.log('Plot: ' + jsonData.Plot);
